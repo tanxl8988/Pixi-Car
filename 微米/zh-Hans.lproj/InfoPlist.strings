@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  微米
+
+  Created by Mac on 17/9/28.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+NSPhotoLibraryUsageDescription = "要允许\"Pixi Car\"访问您手机的照片和影片吗?";

@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket" "${PODS_CONFIGURATION_BUILD_DIR}/DACircularProgress" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser" "${PODS_CONFIGURATION_BUILD_DIR}/PSTCollectionView" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DACircularProgress/DACircularProgress.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PSTCollectionView/PSTCollectionView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "AssetsLibrary" -framework "CFNetwork" -framework "CocoaAsyncSocket" -framework "CoreGraphics" -framework "DACircularProgress" -framework "ImageIO" -framework "MBProgressHUD" -framework "MWPhotoBrowser" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "PSTCollectionView" -framework "QuartzCore" -framework "SDWebImage" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "Photos"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
